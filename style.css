@@ -1,0 +1,41 @@
+body::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#questions::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+#instructors::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+#learn::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+#contact::before {
+    display: block;
+    content: "";
+    height: 50px;
+}
